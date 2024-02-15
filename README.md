@@ -11,22 +11,14 @@ Here I am going to give me self the basic syntax of md (MarkDown), because I can
 if dog is good_boy:
 ```
 
->**Note:** 
->
->One of the key aspect of jazz is soul.
-
-
-> **Warning:** This is how you write a warning.
->
-> It can have multiple paragraphs.
+> **Note:** 
+> One of the key aspect of jazz is soul.
 
 > **Warning:**
-
 > Something like cereal is NOT a soup.
 
 
 > **Callout:**
-
 > Something like Charlie in 3rd grade ate soap.
 
 
