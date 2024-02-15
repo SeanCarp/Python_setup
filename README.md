@@ -14,19 +14,26 @@ if dog is good_boy:
 **Note:**
 One of the key aspect of jazz is soul.
 
-**Warning:**
+**Warning:** The Warning is not as cool
 Something like cereal is NOT a soup.
 
 **Callout:**
 Something like Charlie in 3rd grade ate soap.
 
+
+
 One * means italic
+---
 Two ** means Bold
 
+
 Link: [The Text](http://google.com)
+---
 Image ![Alt-Text](jpg)
 
+
 One ` is line of code
+---
 Three ``` is 3 lines of code
 
 Three --- is a line break
