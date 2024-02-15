@@ -12,7 +12,7 @@ if dog is good_boy:
 ```
 
 > **Note:** 
-
+>
 > One of the key aspect of jazz is soul.
 
 
