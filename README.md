@@ -21,19 +21,19 @@ Something like cereal is NOT a soup.
 Something like Charlie in 3rd grade ate soap.
 
 
-
-One * means italic
 ---
+One * means italic
+
 Two ** means Bold
 
-
-Link: [The Text](http://google.com)
 ---
+Link: [The Text](http://google.com)
+
 Image ![Alt-Text](jpg)
 
-
-One ` is line of code
 ---
+One ` is line of code
+
 Three ``` is 3 lines of code
 
 Three --- is a line break
