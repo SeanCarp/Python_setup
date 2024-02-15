@@ -8,5 +8,5 @@ Here I am going to give me self the basic syntax of md (MarkDown), because I can
 
 ``` For Example
 ```python
-if dog is good_boy then:
+// if dog is good_boy then:
 ```
