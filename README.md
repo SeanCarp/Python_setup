@@ -7,6 +7,6 @@ Here I am going to give me self the basic syntax of md (MarkDown), because I can
 // Some basic code would then go here
 
 ``` For Example
-``` python
+```python
 if dog is good_boy then:
 ```
