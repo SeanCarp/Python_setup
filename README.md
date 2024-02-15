@@ -16,6 +16,10 @@ if dog is good_boy:
 >One of the key aspect of jazz is soul.
 
 
+> **Warning:** This is how you write a warning.
+>
+> It can have multiple paragraphs.
+
 > **Warning:**
 
 > Something like cereal is NOT a soup.
