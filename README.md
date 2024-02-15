@@ -11,9 +11,9 @@ Here I am going to give me self the basic syntax of md (MarkDown), because I can
 if dog is good_boy:
 ```
 
-> **Note:** 
+>**Note:** 
 >
-> One of the key aspect of jazz is soul.
+>One of the key aspect of jazz is soul.
 
 
 > **Warning:**
