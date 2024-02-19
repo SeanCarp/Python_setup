@@ -14,8 +14,8 @@ password = None
 server = None
 
 def email_mod(email, password):
-    email = self.email
-    password = self.password
+    email = email
+    password = password
 
     # Setup server connection
     server = smtplib.SMTP("smtp.gmail.com", 587)
