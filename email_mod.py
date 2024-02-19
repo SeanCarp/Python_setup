@@ -13,7 +13,7 @@ email = None
 password = None
 server = None
 
-def email_mod(self, email, password):
+def email_mod(email, password):
     email = self.email
     password = self.password
 
@@ -46,5 +46,5 @@ def send_text(subject, body, *to):
 
 
 if __name__ == '__main__':
-    email_mod(self, "swcarpenter04@gmail.com", "qcczprggcwopltpy")
+    email_mod("swcarpenter04@gmail.com", "qcczprggcwopltpy")
 
