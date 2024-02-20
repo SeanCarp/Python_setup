@@ -43,6 +43,8 @@ class Email():
         """
         Sends the text to the required person
 
+        Tmobile has some problem sending the text without the extra: 1
+
         Atributes:
             self (self)
             subject (str): the email of the text
