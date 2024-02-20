@@ -52,8 +52,7 @@ class Email():
                 second one is mobile provider
 
             to (str):
-                first one is perfect phone email addr
-        """
+                first one is perfect phone email addr"""
 
         if self.server is not None or self.email is not None:
             msg = MIMEText(body)
@@ -72,4 +71,37 @@ class Email():
                 msg['to'] = to[0] # You better make sure that is perfect
             
             self.server.send_message(msg)
-            print('Sent')
+            print('Sent to', to)
+    
+    def send_text_nosub(self, body, *to):
+        """
+        Sends the text to the requierd person without a subject line
+        
+        Atributes:
+            self (self)
+            body (str): the body of the text
+            *to (str, str): 
+                first one is phone num
+                second one is mobile provider
+
+            to (str):
+                first one is perfect phone email addr"""
+        
+        if self.server is not None or self.email is not None:
+            msg = MIMEText(body)
+            #msg['subject'] = subject
+            msg['from'] = self.email
+
+            if(len(to) == 2):
+                mobile_providers = {'at&t': '@mms.att.net',
+                                'cricket wireless': '@mms.att.net',
+                                'metro pcs': '@metropcs.sms.us',
+                                'tmobile': '@tmomail.net',
+                                'us cellular': '@email.uscc.net',
+                                'verizon': '@vtext.com'}
+                msg['to'] = to[0] + mobile_providers.get(to[1].lower())
+            else:
+                msg['to'] = to[0] # You better make sure that is perfect
+            
+            self.server.send_message(msg)
+            print('Sent to', to)
