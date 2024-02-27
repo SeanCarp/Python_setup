@@ -8,13 +8,11 @@ class Pushover:
         self.user_key = key
         self.api_token = token
 
-    def send_notification(message, key=user_key, token=api_token, title=None, priority=None):
+    def send_notification(self, message, title=None, priority=None):
         """
         Sends a Push notifcation with the PushOver API
         
         Parameters:
-            key (user_key): Pushover user key
-            token (api_token): Pushover application API token
             message (string): Notification Message
             title (string): Notification title (optional)
             priority (string): Notification priority (optional)"""
@@ -22,8 +20,8 @@ class Pushover:
         URL = 'https://api.pushover.net/1/messages.json'
 
         data = {
-            'user': key,
-            'token': token,
+            'user': self.user_key,
+            'token': self.api_token,
             'message': message,
             'title': title,
             'priority': priority
